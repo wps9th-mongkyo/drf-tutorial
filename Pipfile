@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 pygments = "*"
 ipython = "*"
+django-extensions = "*"
 
 [dev-packages]
 

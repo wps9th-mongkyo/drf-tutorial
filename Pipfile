@@ -9,6 +9,8 @@ djangorestframework = "*"
 pygments = "*"
 ipython = "*"
 django-extensions = "*"
+djangorestframework-xml = "*"
+djangorestframework-yaml = "*"
 
 [dev-packages]
 

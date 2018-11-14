@@ -4,11 +4,11 @@ from snippets.serializers import SnippetSerializer
 from ..models import Snippet
 
 
-class SnippetList(generics.ListCreateAPIView):
+class UserListView(generics.ListCreateAPIView):
     queryset = Snippet.objects.all()
     serializer_class = SnippetSerializer
 
 
-class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
+class UserDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Snippet.objects.all()
     serializer_class = SnippetSerializer
